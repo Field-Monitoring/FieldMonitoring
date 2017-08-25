@@ -44,7 +44,7 @@ app.get('/failure',function(req, res ,next){
 });
 
 app.get('/success',function(req ,res ,next){
-  res.json({"status":"success"});
+  res.json({"message":"success"});
 });
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
